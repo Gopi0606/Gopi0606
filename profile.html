@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber-Sec Profile</title>
+    <!-- Use Tailwind CSS from CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Use the Inter font for a clean, modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-200">
+    <!-- Main container for the profile page -->
+    <div class="container mx-auto max-w-4xl p-6 md:p-10">
+
+        <!-- Profile Header Section -->
+        <header class="flex flex-col items-center text-center mb-12">
+            <!-- Profile Avatar with a neon glow effect -->
+            <div class="relative mb-6">
+                <img src="/home/gopi/Downloads/pic/kak.gif" alt="Profile Picture" class="rounded-full w-40 h-40 border-4 border-cyan-500 shadow-md">
+                <div class="absolute inset-0 rounded-full border-4 border-cyan-500 blur-sm opacity-50 z-[-1]"></div>
+            </div>
+            <!-- Profile Name and Title -->
+            <h1 class="text-5xl font-bold text-white mb-2">Gopi</h1>
+            <p class="text-xl font-medium text-cyan-400">Cybersecurity Analyst | Ethical Hacker | penetester</p>
+            <p class="mt-4 max-w-2xl text-lg text-gray-400">
+                Passionate about protecting digital assets and exploring vulnerabilities. I specialize in penetration testing, network security, and secure code development.
+            </p>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Skills Section -->
+            <div class="md:col-span-2 bg-gray-800 rounded-lg p-6 shadow-xl border border-gray-700">
+                <h2 class="text-3xl font-semibold mb-6 text-lime-400">Skills</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Individual Skill Cards -->
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-brands fa-linux text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Kali Linux</span>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-brands fa-python text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Python</span>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-shield-alt text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Network Security</span>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-code text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Secure Coding</span>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-magnifying-glass text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Penetration Testing</span>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg flex items-center shadow-lg transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-cloud text-xl text-cyan-400 mr-3"></i>
+                        <span class="text-lg">Cloud Security</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media & Contact Section -->
+            <div class="bg-gray-800 rounded-lg p-6 shadow-xl border border-gray-700">
+                <h2 class="text-3xl font-semibold mb-6 text-lime-400">Connect</h2>
+                <ul class="space-y-4">
+                    <!-- Social media links -->
+                    <li>
+                        <a href="https://twitter.com/yourhandle" target="_blank" class="flex items-center text-gray-300 hover:text-cyan-400 transition duration-300">
+                            <i class="fa-brands fa-x-twitter text-xl mr-3"></i>
+                            <span class="text-lg">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="flex items-center text-gray-300 hover:text-cyan-400 transition duration-300">
+                            <i class="fa-brands fa-linkedin text-xl mr-3"></i>
+                            <span class="text-lg">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:youremail@example.com" class="flex items-center text-gray-300 hover:text-cyan-400 transition duration-300">
+                            <i class="fa-solid fa-envelope text-xl mr-3"></i>
+                            <span class="text-lg">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://yourwebsite.com" target="_blank" class="flex items-center text-gray-300 hover:text-cyan-400 transition duration-300">
+                            <i class="fa-solid fa-globe text-xl mr-3"></i>
+                            <span class="text-lg">Website</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <!-- Projects Section (Below main grid for full-width) -->
+        <section class="mt-8 bg-gray-800 rounded-lg p-6 shadow-xl border border-gray-700">
+            <h2 class="text-3xl font-semibold mb-6 text-lime-400">Recent Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-2">Pen-Test Report Automation</h3>
+                    <p class="text-gray-400">Automated script to generate comprehensive penetration testing reports from raw scan data.</p>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-2">Network Intrusion Detector</h3>
+                    <p class="text-gray-400">A real-time network traffic analysis tool built with Python to detect suspicious activity.</p>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-2">Simple Encryption App</h3>
+                    <p class="text-gray-400">A web-based tool for simple file encryption and decryption using modern cryptographic standards.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
