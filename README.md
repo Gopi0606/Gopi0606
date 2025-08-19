@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">Greetings! I'm a passionate cybersecurity professional with a strong focus on network security, penetration testing, and incident response. My journey in cybersecurity is driven by a desire to protect digital assets and build resilient systems against evolving threats. I enjoy dissecting complex security challenges, automating security tasks, and contributing to open-source security projects. I'm always eager to learn new technologies and methodologies to stay ahead in the dynamic world of cybersecurity.</p>
+<p align="left">I'm a passionate cybersecurity professional with a strong focus on network security, penetration testing, and incident response. My journey in cybersecurity is driven by a desire to protect digital assets and build resilient systems against evolving threats. I enjoy dissecting complex security challenges, automating security tasks, and contributing to open-source security projects. I'm always eager to learn new technologies and methodologies to stay ahead in the dynamic world of cybersecurity.</p>
 
 ###
 
